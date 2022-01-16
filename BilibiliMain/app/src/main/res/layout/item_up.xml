@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:focusableInTouchMode="true">
+
+
+    <ImageView
+        android:id="@+id/list_view_icon_1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/touxiang_1" />
+
+    <Button
+        android:id="@+id/list_view_name_1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="up"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="@color/white"/>
+
+
+
+</LinearLayout>
